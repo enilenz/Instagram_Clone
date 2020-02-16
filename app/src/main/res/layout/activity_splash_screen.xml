@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+
+    <ImageView
+        android:id="@+id/instagramTitleView"
+        android:layout_width="265dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="240dp"
+        android:alpha="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/instagramtitle" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="143dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="242dp"
+        android:alpha="0"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
+        android:text="@string/clone_SplashScreen"
+        android:textSize="50sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toEndOf="@+id/instagramTitleView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
