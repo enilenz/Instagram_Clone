@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashScreen extends AppCompatActivity {
 
-    int SPLASH_TIMEOUT = 3000;
+    int SPLASH_TIMEOUT = 2000;
 
     ImageView imageView;
 
@@ -22,15 +22,13 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
         imageView = findViewById(R.id.instagramTitleView);
         textView = findViewById(R.id.textView);
-
-//        imageView.animate().alpha(10).setDuration(4000);
         textView.animate().alpha(10).setDuration(6000);
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
 
-                Intent splashIntent = new Intent(SplashScreen.this, MainActivity.class);
+                Intent splashIntent = new Intent(SplashScreen.this, SignUp.class);
                 startActivity(splashIntent);
                 finish();
 
