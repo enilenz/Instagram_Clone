@@ -22,13 +22,13 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
         imageView = findViewById(R.id.instagramTitleView);
         textView = findViewById(R.id.textView);
-        textView.animate().alpha(10).setDuration(6000);
+        textView.animate().alpha(10).setDuration(7000);
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
 
-                Intent splashIntent = new Intent(SplashScreen.this, SignUp.class);
+                Intent splashIntent = new Intent(SplashScreen.this, Container_SL.class);
                 startActivity(splashIntent);
                 finish();
 

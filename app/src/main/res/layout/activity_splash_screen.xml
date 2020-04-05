@@ -24,10 +24,10 @@
         android:layout_marginTop="241dp"
         android:alpha="0"
         android:fontFamily="@font/roboto_thin"
+        android:textStyle="normal|bold"
         android:gravity="center"
         android:text="@string/clone_SplashScreen"
         android:textSize="50sp"
-        android:textStyle="normal|bold"
         app:layout_constraintStart_toEndOf="@+id/instagramTitleView"
         app:layout_constraintTop_toTopOf="parent" />
 

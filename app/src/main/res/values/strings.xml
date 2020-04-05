@@ -3,4 +3,26 @@
     <string name="clone_SplashScreen">Clone</string>
     <string name="signUp_userName">Username</string>
     <string name="signUp_password">Password</string>
+    <string name="signUp_email">Email</string>
+    <string name="signUp_loginButton">SIGN UP</string>
+    <string name="signUp_alreadyHaveAnAccount">Already have an account?</string>
+    <string name="signUp_signInHere">Log in here</string>
+    <string name="sign_up_PasswordError">Password must be up to 8 characters</string>
+    <string name="sign_up_EmailError">Email is not valid</string>
+    <string name="logIn_dontHaveAnAccount">Don\'t have an account?</string>
+    <string name="logIn_signInHere">Sign Up here</string>
+    <string name="logIn_loginButton">LOG IN</string>
+    <string name="slideShow1">Take Pictures</string>
+    <string name="slideShow2">Post</string>
+    <string name="slideShow3">Like and Comment</string>
+    <string name="slideShow4">Follow Friends</string>
+    <string name="slideShow5">Repeat</string>
+    <string name="accountSetup_title">Account Setup</string>
+    <string name="accountSetup_fullName">Full Name</string>
+    <string name="accountSetup_phoneNumber">Phone Number (Optional) </string>
+    <string name="accountSetup_setupButton">Finish Setup </string>
+    <string name="accountSetup_fullNameEmpty">Field cannot be empty </string>
+
+
+
 </resources>
